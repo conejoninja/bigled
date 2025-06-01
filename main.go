@@ -96,7 +96,6 @@ func main() {
 			btnBPressed = false
 		}
 
-		println(mode, btnBPressed, n)
 		switch mode {
 		case RAINBOW:
 			for i := uint8(0); i < NUMLEDS; i++ {
